@@ -1,0 +1,17 @@
+{
+    "name": "dominikvoda/twig-components",
+    "authors": [
+        {
+            "name": "dominikvoda",
+            "email": "d.voda94@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DV\\TwigComponents\\": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.1"
+    }
+}
