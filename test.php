@@ -26,3 +26,5 @@ $body = new \DV\TwigComponents\Components\Body\BodyComponent($bodyComposite);
 $html = new \DV\TwigComponents\Components\Html\HtmlComponent($head, $body);
 
 file_put_contents('test.html', $renderer->render($html));
+
+exec('open ' . __DIR__ . '/test.html');
